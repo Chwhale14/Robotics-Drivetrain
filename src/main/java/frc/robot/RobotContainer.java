@@ -20,8 +20,8 @@ public class RobotContainer {
   // The robot's subsystems and commands are defined here...
   public Drivetrain m_drive = new Drivetrain();
 
-  public Joystick left = new Joystick(0);
-  public Joystick right = new Joystick(1);
+  public Joystick left = new Joystick(1);
+  public Joystick right = new Joystick(0);
   
  
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
